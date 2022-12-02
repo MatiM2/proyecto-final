@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.proyectoydirecciondeobra{
+    background-color: #d4e1b2;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.construccion{
+    background-color: #d4e1b2;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.reformas{
+    background-color: #d4e1b2;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.diseñodeinteriores{
+    background-color: #d4e1b2;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+/* ESCRITORIOS NORMALES */
+
+@media(min-width:992px){
+    .servicios{
+        display: flex;
+    }
+
+    .servicios div{
+        width: 30%;
+    }
+}
