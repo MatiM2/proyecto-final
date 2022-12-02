@@ -11,3 +11,20 @@
 .icon{
     width: 40%;
 }
+
+/* MOBILE */
+
+@media(min-width:414px){
+
+    .icon{
+        width: 100%;
+        
+    }
+    
+    .contenedorImagen{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
